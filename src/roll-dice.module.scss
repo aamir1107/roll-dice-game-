@@ -1,0 +1,73 @@
+.mainPageSection {
+    width: calc(60% - 20px);
+    height: 90vh;
+    border: 2px solid #836fa9;
+    text-align: center;
+    margin: auto;
+    min-width: 450px;
+
+    .contentSection {
+
+
+        .headingSection {
+            font-size: 50px;
+            padding-top: 25px;
+            font-family: system-ui;
+            font-weight: bolder;
+        }
+
+
+
+        .playerSection {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 55px;
+
+            .player {
+                font-size: 40px;
+                font-family: system-ui;
+
+                font-weight: bolder;
+            }
+        }
+
+        .diceSection {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 40px;
+
+            .diceFace {
+                .diceCss {
+                    color: greenyellow;
+                }
+
+                .diceCssSix {
+                    color: greenyellow;
+                }
+            }
+
+
+        }
+
+        .winnerSectioin {
+            font-family: system-ui;
+            font-size: 26px;
+            padding-top: 70px;
+        }
+
+        .rollTheDiceBtnSection {
+
+            button {
+                height: 40px;
+                width: 360px;
+                font-family: system-ui;
+                background-color: #836fa9;
+                font-weight: bolder;
+                border-radius: 10px;
+                border: none;
+            }
+
+
+        }
+    }
+}
